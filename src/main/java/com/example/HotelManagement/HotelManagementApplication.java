@@ -13,10 +13,10 @@ public class HotelManagementApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HotelManagementApplication.class, args);
 		System.out.println("Weclome to Java Project");
-		 Hotel hotel = new Hotel();
-		 for(Map.Entry<String, Integer> entry: hotel.getRooms().entrySet()){
-			 System.out.println("Room: " + entry.getKey() + " Price: " + entry.getValue());
-		 }
+//		 Hotel hotel = new Hotel();
+//		 for(Map.Entry<String, Integer> entry: hotel.getRooms().entrySet()){
+//			 System.out.println("Room: " + entry.getKey() + " Price: " + entry.getValue());
+//		 }
 		Guest guests = new Guest();
 		 for(Map.Entry<String, Map<String, Object>> entry: guests.getCustomers().entrySet()){
 			 for(Map.Entry<String, Object> data: entry.getValue().entrySet()){

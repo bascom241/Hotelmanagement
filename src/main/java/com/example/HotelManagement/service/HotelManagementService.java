@@ -22,6 +22,7 @@ public class HotelManagementService {
 
     public void arrangeUserBookings(){
 
+
     }
 
 }
