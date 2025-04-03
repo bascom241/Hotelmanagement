@@ -11,6 +11,7 @@ public class Hotel {
     private HashMap<String,Integer> rooms = new HashMap<>();
 
     public Hotel(){
+
         rooms.put("Room1", 357);
         rooms.put("Room2", 200);
         rooms.put("Room3", 100);
